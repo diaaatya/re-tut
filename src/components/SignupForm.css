@@ -1,0 +1,76 @@
+/* SignupForm.css */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+    background-color: #f8f8f8; /* Off-white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .signup-form {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff; /* White background for form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect for form */
+    
+  }
+  
+  .signup-heading {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .error {
+    color: #d32f2f;
+    margin-top: 5px;
+    font-weight: bold; /* Bold font for error messages */
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 0.5s ease-in-out forwards; /* Fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  .hform{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+  }

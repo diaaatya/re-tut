@@ -1,0 +1,78 @@
+/* CourseCard.css */
+
+.course-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: space-between; /* Align items along the main axis */
+   
+}
+
+.course-card:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.course-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.course-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.premium-label,
+.free-label {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.premium-label {
+    background-color: gold;
+    color: black;
+}
+
+.free-label {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.course-body {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center items horizontally */
+}
+
+.course-image {
+    width: 100%; /* Take full width */
+    height: 200px;
+    margin-bottom: 20px; /* Add space below image */
+}
+
+.course-details {
+    font-size: 14px;
+    color: #666666;
+}
+
+.course-tag {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.course-duration {
+    font-style: italic;
+}

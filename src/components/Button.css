@@ -1,0 +1,33 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
+  .button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+  }
+  
+  .button.hovered {
+    background-color: #6e4b6b;
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  
+  .icon {
+    margin-right: 5px;
+    display: none; /* Initially hidden */
+  }
+  
+  .button:hover .icon {
+    display: inline-block; /* Show icon on hover */
+  }
+  

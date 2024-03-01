@@ -1,0 +1,75 @@
+
+.course-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.course-detail-header {
+  text-align: center;
+}
+
+.course-detail-header img {
+  width: 80%;
+  max-width: 800px;
+}
+
+.course-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.course-duration {
+  font-style: italic;
+}
+
+.chapter {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden; /* Ensure hidden overflow for smooth transition */
+  }
+  
+  .chapter-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer; /* Add pointer cursor to indicate clickable */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .chapter-title:hover {
+    color: #007bff; /* Highlight color on hover */
+  }
+  
+  .chapter-lessons {
+    max-height: 0; /* Initially collapse chapter content */
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Smooth height transition */
+  }
+  
+  .chapter.expanded .chapter-lessons {
+    max-height: 1000px; /* Expand chapter content */
+  }
+  .lesson {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Add border between lessons */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+  }
+  
+  .lesson:hover {
+    background-color: #f5f5f5; /* Highlight background color on hover */
+  }
+  
+  .lesson.completed {
+    color: #4CAF50; /* Green color for completed lessons */
+  }
+  
+  .lesson-icon {
+    font-size: 20px;
+  }
