@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.81299eb1.css",
-    "main.js": "/static/js/main.db59d9be.js",
-    "static/js/453.7225cfe4.chunk.js": "/static/js/453.7225cfe4.chunk.js",
-    "static/media/course_[6].jpg": "/static/media/course_[6].2f9e1074ee7d40a48f45.jpg",
-    "static/media/course_[5].jpg": "/static/media/course_[5].6435ddaa207b8604221e.jpg",
-    "static/media/course_[3].jpg": "/static/media/course_[3].ba66476de0e4977b83e3.jpg",
-    "static/media/course_[7].jpg": "/static/media/course_[7].b92dfd75e87952e85631.jpg",
-    "static/media/course_[1].jpg": "/static/media/course_[1].21baa3c4d22e8518cdc8.jpg",
-    "static/media/course_[8].jpg": "/static/media/course_[8].e60264d990455567168a.jpg",
-    "static/media/course_[4].jpg": "/static/media/course_[4].e052e0e30d70ed26a55f.jpg",
-    "static/media/backg.jpg": "/static/media/backg.64cd9bd481fdb3a7ec25.jpg",
-    "static/media/course_[2].jpg": "/static/media/course_[2].aba8359a9ae07bf9d01a.jpg",
-    "static/media/tile_background.png": "/static/media/tile_background.d0973fbf500d7ec8abf2.png",
-    "index.html": "/index.html",
-    "main.81299eb1.css.map": "/static/css/main.81299eb1.css.map",
-    "main.db59d9be.js.map": "/static/js/main.db59d9be.js.map",
-    "453.7225cfe4.chunk.js.map": "/static/js/453.7225cfe4.chunk.js.map"
+    "main.css": "/re-tut/static/css/main.f07eadd6.css",
+    "main.js": "/re-tut/static/js/main.f4fbf14c.js",
+    "static/js/453.7225cfe4.chunk.js": "/re-tut/static/js/453.7225cfe4.chunk.js",
+    "static/media/course_[6].jpg": "/re-tut/static/media/course_[6].2f9e1074ee7d40a48f45.jpg",
+    "static/media/course_[5].jpg": "/re-tut/static/media/course_[5].6435ddaa207b8604221e.jpg",
+    "static/media/course_[3].jpg": "/re-tut/static/media/course_[3].ba66476de0e4977b83e3.jpg",
+    "static/media/course_[7].jpg": "/re-tut/static/media/course_[7].b92dfd75e87952e85631.jpg",
+    "static/media/course_[1].jpg": "/re-tut/static/media/course_[1].21baa3c4d22e8518cdc8.jpg",
+    "static/media/course_[8].jpg": "/re-tut/static/media/course_[8].e60264d990455567168a.jpg",
+    "static/media/course_[4].jpg": "/re-tut/static/media/course_[4].e052e0e30d70ed26a55f.jpg",
+    "static/media/backg.jpg": "/re-tut/static/media/backg.64cd9bd481fdb3a7ec25.jpg",
+    "static/media/course_[2].jpg": "/re-tut/static/media/course_[2].aba8359a9ae07bf9d01a.jpg",
+    "static/media/tile_background.png": "/re-tut/static/media/tile_background.d0973fbf500d7ec8abf2.png",
+    "index.html": "/re-tut/index.html",
+    "main.f07eadd6.css.map": "/re-tut/static/css/main.f07eadd6.css.map",
+    "main.f4fbf14c.js.map": "/re-tut/static/js/main.f4fbf14c.js.map",
+    "453.7225cfe4.chunk.js.map": "/re-tut/static/js/453.7225cfe4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81299eb1.css",
-    "static/js/main.db59d9be.js"
+    "static/css/main.f07eadd6.css",
+    "static/js/main.f4fbf14c.js"
   ]
 }
